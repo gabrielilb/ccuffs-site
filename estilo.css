@@ -78,6 +78,62 @@ main{
 
 }
 
+#gosto{
+    float: center;
+    justify-content: center;
+    background: rgba(33, 33, 37);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    width: 95%;
+    height: 450px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.images{
+    display: inline-block;
+}
+
+.images ul li{
+    list-style-type: none;
+}
+
+.images img{
+    justify-content: center;
+    float: right;
+    width: 20%;
+}
+
+#cafe{
+    justify-content: center;
+}
+
+#yoda{
+    float: left;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+
+#livros{
+    float:right;
+    margin-right: 25px;
+    padding-top: 55px;
+}
+
+#gato{
+    float:right;
+    margin-right: -50px;
+    padding-top: 120px;
+}
+
+#api{
+    padding-top: 20px;
+    width: 18%;
+}
+
 /* Rodapé */
 
 #rodape{
