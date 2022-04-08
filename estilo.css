@@ -1,1 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Menu */
+
+#menu{
+    background-color: rgb(37, 37, 39);
+    display: flex;
+    justify-content: center;
+}
+  
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background:.4s;
+}
+
+#menu ul li a:hover{
+  background-color: rgb(19, 117, 209);
+}
+
+/* Corpo da página */
+
+body{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+main{ 
+    display: block;
+
+}
+
+.texto{
+    text-align: center;
+    float: left;
+    width: 65%;
+    color: white;
+    text-decoration: white;
+    font-size: 18px;
+}
+
+#sou{
+    float: center;
+    justify-content: center;
+    background: rgba(33, 33, 37);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 50px;
+    width: 95%;
+    height: 450px;
+    display: inline-block;
+ 
+}
+
+#sou img{
+    justify-content: center;
+    float: right;
+    border-radius: 5px;
+    width: 30%;
+
+}
+
+/* Rodapé */
+
+#rodape{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.redes-sociais{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 25px 10px 10px 1px;
+    text-align: center;
+}
+
+.icons li {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: center;
+    padding: 1px 4px 4px 10px;
+}
+
+.facebook{
+    max-width:50px;
+    max-height:50px;
+    width: 100%;
+    height: 100%;
+}
+
+.linkedin{
+    max-width:50px;
+    max-height:50px;
+    width: 100%;
+    height: 100%;
+}
+
+.github{
+    max-width:50px;
+    max-height:50px;
+    width: 100%;
+    height: 100%;
+}
+
+.instagram{
+    max-width:50px;
+    max-height:50px;
+    width: 100%;
+    height: 100%;
+}
